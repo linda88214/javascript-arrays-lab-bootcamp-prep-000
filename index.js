@@ -1,3 +1,4 @@
 function destructivelyAppendKitten(name) {
-  return name.push("Ralph")
+  name.push("Ralph")
+  return name
 }
